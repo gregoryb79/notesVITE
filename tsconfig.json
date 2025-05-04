@@ -1,4 +1,11 @@
 {
+  "compilerOptions": {
+    "jsx": "react-jsx", // or "react-jsx" if using React 17+
+    "types": ["react", "react-dom"],
+    "strict": true,
+    "target": "ES2022",
+    "module": "ESNext"
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
